@@ -129,7 +129,7 @@
       "image": "photo-7",
       "tag": "Expert advisor",
       "platform": "MetaTrader 5",
-      "price": 99,
+      "price": 300,
       "name": "MultiSymbol TrendEMA RSI EA",
       "shortDescription": "Trades several symbols at once using an EMA trend filter combined with RSI.",
       "overview": "This expert advisor watches several symbols from a single chart. It uses an EMA to read the trend direction and RSI to time entries, so it only trades when both agree.",
