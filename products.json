@@ -1,0 +1,150 @@
+{
+  "products": [
+    {
+      "id": "buy-stop-sell-stop-expert",
+      "image": "photo-1",
+      "tag": "Expert advisor",
+      "platform": "MetaTrader 5",
+      "price": 30,
+      "name": "Buy Stop and Sell Stop Expert",
+      "shortDescription": "Trades breakouts in both directions using buy stop and sell stop pending orders.",
+      "overview": "This expert advisor places buy stop and sell stop pending orders around price, so it can catch a breakout whichever way the market moves. When one side is triggered, the opposite pending order is removed automatically.",
+      "features": [
+        "Places buy stop and sell stop pending orders automatically",
+        "Cancels the opposite order once one side is triggered",
+        "Adjustable distance, stop loss and take profit",
+        "Works on any symbol and timeframe"
+      ],
+      "requirements": [
+        "MetaTrader 5 platform",
+        "Any broker that allows pending orders",
+        "Algo Trading enabled on the chart"
+      ]
+    },
+    {
+      "id": "limit-order-expert",
+      "image": "photo-2",
+      "tag": "Expert advisor",
+      "platform": "MetaTrader 5",
+      "price": 70,
+      "name": "Limit Order Expert",
+      "shortDescription": "Trades pullbacks using buy limit and sell limit pending orders.",
+      "overview": "This expert advisor places buy limit and sell limit pending orders at your chosen levels, entering the market only when price pulls back to those levels instead of chasing the current price.",
+      "features": [
+        "Places buy limit and sell limit pending orders automatically",
+        "Entries trigger only on a pullback to your level",
+        "Adjustable distance, stop loss and take profit",
+        "Works on any symbol and timeframe"
+      ],
+      "requirements": [
+        "MetaTrader 5 platform",
+        "Any broker that allows pending orders",
+        "Algo Trading enabled on the chart"
+      ]
+    },
+    {
+      "id": "fvg-expert",
+      "image": "photo-3",
+      "tag": "Expert advisor",
+      "platform": "MetaTrader 5",
+      "price": 200,
+      "name": "FVG Expert",
+      "shortDescription": "Finds fair value gaps on the chart and trades them automatically.",
+      "overview": "This expert advisor scans the chart for fair value gap (FVG) zones and trades them without manual work. It marks each gap it finds and manages entries around those zones.",
+      "features": [
+        "Detects fair value gap zones automatically",
+        "Marks each FVG zone on the chart",
+        "Automatic entry, stop loss and take profit",
+        "Adjustable minimum gap size"
+      ],
+      "requirements": [
+        "MetaTrader 5 platform",
+        "Any broker",
+        "Algo Trading enabled on the chart"
+      ]
+    },
+    {
+      "id": "live-timeframe-candles",
+      "image": "photo-4",
+      "tag": "Chart tool",
+      "platform": "MetaTrader 5",
+      "price": 20,
+      "name": "Live Timeframe Candles",
+      "shortDescription": "Shows the live, still-forming candle of any timeframe on your current chart.",
+      "overview": "Pick any timeframe and this tool shows its live candle directly on the chart you already have open, for example watching the running H1 candle while your chart is set to M5.",
+      "features": [
+        "Shows the live candle of any timeframe you choose",
+        "Updates in real time as the candle forms",
+        "Works alongside your normal chart timeframe",
+        "Simple on-chart display, no extra window"
+      ],
+      "requirements": [
+        "MetaTrader 5 platform",
+        "Any broker and any symbol"
+      ]
+    },
+    {
+      "id": "tradingview-tools-mt5",
+      "image": "photo-5",
+      "tag": "Chart tool",
+      "platform": "MetaTrader 5",
+      "price": 20,
+      "name": "TradingView Tools for MT5",
+      "shortDescription": "Brings TradingView-style chart drawing tools into MetaTrader 5.",
+      "overview": "This tool adds a set of chart drawing and marking tools inspired by TradingView directly inside MetaTrader 5, so you can mark up your charts the way you are used to without switching platforms.",
+      "features": [
+        "TradingView-style drawing tools inside MetaTrader 5",
+        "Quick access from the chart toolbar",
+        "Works alongside MetaTrader 5's own tools",
+        "No need to switch to another platform"
+      ],
+      "requirements": [
+        "MetaTrader 5 platform",
+        "Any broker and any symbol"
+      ]
+    },
+    {
+      "id": "quick-chart-16-symbols",
+      "image": "photo-6",
+      "tag": "Chart tool",
+      "platform": "MetaTrader 5",
+      "price": 30,
+      "name": "16-Symbol Quick Chart",
+      "shortDescription": "Shows 16 symbols on your chart and opens any of them instantly.",
+      "overview": "This tool displays a panel of 16 symbols directly on your chart. Click any symbol and its chart opens immediately, so you can scan your whole watchlist without opening a separate window.",
+      "features": [
+        "Displays 16 symbols in one on-chart panel",
+        "Click a symbol to open its chart instantly",
+        "Fully customisable symbol list",
+        "Saves time scanning your watchlist"
+      ],
+      "requirements": [
+        "MetaTrader 5 platform",
+        "Any broker",
+        "The symbols must be available in your Market Watch"
+      ]
+    },
+    {
+      "id": "multisymbol-trendema-rsi-ea",
+      "image": "photo-7",
+      "tag": "Expert advisor",
+      "platform": "MetaTrader 5",
+      "price": 99,
+      "name": "MultiSymbol TrendEMA RSI EA",
+      "shortDescription": "Trades several symbols at once using an EMA trend filter combined with RSI.",
+      "overview": "This expert advisor watches several symbols from a single chart. It uses an EMA to read the trend direction and RSI to time entries, so it only trades when both agree.",
+      "features": [
+        "Trades multiple symbols from one chart",
+        "EMA trend filter combined with RSI timing",
+        "Adjustable EMA period, RSI levels, stop loss and take profit",
+        "Editable list of symbols to trade"
+      ],
+      "requirements": [
+        "MetaTrader 5 platform",
+        "Any broker",
+        "Algo Trading enabled on the chart",
+        "The chosen symbols must be available in your Market Watch"
+      ]
+    }
+  ]
+}
