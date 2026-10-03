@@ -1,0 +1,42 @@
+{
+  "id": "my-new-tool",
+  "image": "photo-8",
+  "tag": "Chart tool",
+  "platform": "MetaTrader 5",
+  "price": 25,
+  "name": "My New Tool",
+  "shortDescription": "One or two lines shown on the product card.",
+  "overview": [
+    "First paragraph of the overview.",
+    "Second paragraph (optional)."
+  ],
+  "features": [
+    "Feature one",
+    "Feature two"
+  ],
+  "requirements": [
+    "MetaTrader 5 platform",
+    "Any broker and any symbol"
+  ],
+  "media": [
+    {
+      "type": "video",
+      "src": "videos/my-new-tool.mp4",
+      "poster": "images/my-new-tool-poster.jpg",
+      "title": "Demo"
+    },
+    {
+      "type": "youtube",
+      "id": "VIDEO_ID",
+      "title": "Tutorial"
+    },
+    {
+      "type": "image",
+      "src": "images/my-new-tool-2.jpg",
+      "title": "Screenshot"
+    }
+  ],
+  "backtestStats": [],
+  "backtestNote": "",
+  "backtests": []
+}

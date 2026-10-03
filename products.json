@@ -1,0 +1,456 @@
+{
+  "products": [
+    {
+      "id": "quick-chart-16-symbols",
+      "image": "photo-6",
+      "tag": "Chart tool",
+      "platform": "MetaTrader 5",
+      "price": 30,
+      "name": "16-Symbol Quick Chart",
+      "shortDescription": "Multi-symbol dashboard that monitors every trendline on your charts and alerts you when price touches support or resistance.",
+      "overview": [
+        "16-Symbol Quick Chart is a multi-symbol dashboard that watches the trendlines you have drawn on your charts and tells you the moment price reaches one of them. You do not need to name the lines or give them a special color. Every trendline is monitored automatically.",
+        "Each symbol gets its own card showing the symbol name, live price, current status and ATR. When price touches a trendline below the current price (support), the card turns green and a sound alert plays. When price touches a trendline above (resistance), the card turns red with an alert. The chart you are currently on is always highlighted in gold, so you never lose track of where you are.",
+        "Click any card and the chart switches to that symbol instantly. The tool comes with a ready list of popular instruments, including Gold, Silver, major Forex pairs, DJ30 and major cryptocurrencies, and the whole list is fully editable. The footer shows your live floating P/L and margin level."
+      ],
+      "features": [
+        "16 symbols on one compact dashboard",
+        "Monitors all trendlines automatically, no naming or color needed",
+        "Green alert when price touches support (line below price)",
+        "Red alert when price touches resistance (line above price)",
+        "Current chart card highlighted in gold",
+        "Live price, status and ATR on every card",
+        "Click any card to switch the chart instantly",
+        "Sound alerts with adjustable cooldown",
+        "Floating P/L and margin level in the footer",
+        "Pre-loaded symbols: XAUUSD, XAGUSD, majors, DJ30, BTC, ETH and more, all editable"
+      ],
+      "requirements": [
+        "MetaTrader 5 platform",
+        "Any broker",
+        "The symbols must be available in your Market Watch"
+      ],
+      "media": [],
+      "backtestStats": [],
+      "backtests": [],
+      "sections": [
+        {
+          "title": "How it works",
+          "items": [
+            "Draw trendlines on the charts of the symbols you follow, in any color and with any name",
+            "The dashboard keeps watching those lines and compares them with live price",
+            "A line below price is treated as support and a line above price as resistance",
+            "When price touches a line, the card changes color and the sound alert plays",
+            "Click a card to open that symbol on your chart"
+          ]
+        },
+        {
+          "title": "Card colors",
+          "items": [
+            "Green: price touched a support line (trendline below price)",
+            "Red: price touched a resistance line (trendline above price)",
+            "Gold: this is the symbol of the chart you are currently viewing"
+          ]
+        },
+        {
+          "title": "Good to know",
+          "items": [
+            "The sound alert has an adjustable cooldown, so a line that price keeps touching does not spam you",
+            "The symbol list is fully editable, so you can replace the defaults with your own instruments",
+            "Every symbol you use must be visible in your Market Watch"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "live-timeframe-candles",
+      "image": "photo-4",
+      "tag": "Chart tool",
+      "platform": "MetaTrader 5",
+      "price": 20,
+      "name": "Live Timeframe Candles",
+      "shortDescription": "Multi-timeframe panel with live countdown timers, one-click timeframe switching and real-time mini candle previews.",
+      "overview": [
+        "Live Timeframe Candles is a clean on-chart panel that puts every timeframe in one place. It lists all timeframes from M1 to Monthly and shows a live countdown for each one until its current candle closes, so you always know how long is left before a candle completes.",
+        "Click any timeframe button to switch the chart to it immediately. You can also toggle individual timeframes on to see a live mini-candle preview with real-time Open, High, Low and Close values, which gives you multi-timeframe awareness without opening extra charts. Optional chart styling gives the candles a cleaner look.",
+        "The panel is fast, lightweight and works on any broker and any symbol."
+      ],
+      "features": [
+        "Full list of timeframes from M1 to Monthly",
+        "Live countdown timer until each candle closes",
+        "One-click switch to any timeframe",
+        "Toggleable live mini-candle previews with real-time OHLC",
+        "Optional chart candle styling",
+        "Clean, lightweight and customizable on-chart panel"
+      ],
+      "requirements": [
+        "MetaTrader 5 platform",
+        "Any broker and any symbol"
+      ],
+      "media": [],
+      "backtestStats": [],
+      "backtests": [],
+      "sections": [
+        {
+          "title": "How to use it",
+          "items": [
+            "Watch the countdown next to each timeframe to time your entries around candle closes",
+            "Click a timeframe to switch the chart to it",
+            "Toggle a timeframe on to show its live mini-candle with OHLC values",
+            "Turn on the optional chart styling if you want cleaner candles"
+          ]
+        },
+        {
+          "title": "Good for",
+          "items": [
+            "Waiting for an H1, H4 or Daily candle to close before deciding",
+            "Checking what higher timeframe candles are doing without changing the chart",
+            "Traders who work with several timeframes on a single screen"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tradingview-tools-mt5",
+      "image": "photo-5",
+      "tag": "Chart tool",
+      "platform": "MetaTrader 5",
+      "price": 20,
+      "name": "TradingView Tools for MT5",
+      "shortDescription": "Clean floating toolbar with TradingView-style drawing tools: trend lines, zones, FVG, order blocks, risk/reward, Fibonacci and measure.",
+      "overview": [
+        "TradingView Tools for MT5 brings a clean, professional floating toolbar to MetaTrader 5, inspired by the drawing tools traders know from TradingView. The panel is fully draggable and can be minimized, so it stays out of the way when you do not need it.",
+        "Draw Trend Lines, Zones, Fair Value Gaps (FVG) and Order Blocks with one or two clicks. The Risk/Reward tool calculates correctly and its boxes are fully movable and resizable. You also get Fibonacci retracement levels and a Measure tool that shows pips, bars and percentage.",
+        "Magnet mode snaps your drawings precisely to candle highs and lows. Select, Delete and Clear All are always one click away, and colors and opacity can be customized for every tool."
+      ],
+      "features": [
+        "Fully draggable and minimizable floating panel",
+        "Trend Line, Zone, FVG and Order Block tools with one or two clicks",
+        "Risk/Reward tool with correct calculation, movable and resizable",
+        "Fibonacci retracement levels",
+        "Measure tool (pips, bars, percentage)",
+        "Magnet mode for precise snapping",
+        "Select, Delete and Clear All functions",
+        "Customizable colors and opacity for every tool"
+      ],
+      "requirements": [
+        "MetaTrader 5 platform",
+        "Any broker and any symbol"
+      ],
+      "media": [],
+      "backtestStats": [],
+      "backtests": [],
+      "sections": [
+        {
+          "title": "The tools",
+          "items": [
+            "Trend Line: draw with two clicks",
+            "Zone: mark supply, demand or any area on the chart",
+            "FVG: highlight Fair Value Gaps",
+            "Order Block: mark order block areas",
+            "Risk/Reward: movable and resizable boxes with correct calculation",
+            "Fibonacci retracement levels",
+            "Measure: distance in pips, bars and percentage"
+          ]
+        },
+        {
+          "title": "Helpers",
+          "items": [
+            "Magnet mode snaps drawings to candle highs and lows",
+            "Select tool to move and edit drawings",
+            "Delete removes a drawing, Clear All removes everything you drew",
+            "Color and opacity settings for every tool",
+            "Minimize the panel when you want a clean chart"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "smc-map",
+      "image": "smc-map",
+      "tag": "Chart tool",
+      "platform": "MetaTrader 5",
+      "price": 30,
+      "name": "SMC Map",
+      "shortDescription": "Smart Money Concepts visualizer that draws unmitigated FVGs, Order Blocks and swing levels with a live info panel. It never places trades.",
+      "overview": [
+        "SMC Map is a pure visualization tool for traders who use Smart Money Concepts (SMC / ICT-style analysis). It does not place any trades. It only draws and keeps updated the most important institutional zones and levels, so you can read market structure at a glance.",
+        "It is made for traders who already understand FVG, Order Blocks and market structure and want a clean, reliable visual layer that stays up to date automatically, without clutter or lag. No trading logic, no signals, no orders."
+      ],
+      "features": [
+        "Unmitigated bullish and bearish Fair Value Gaps with ATR size filter",
+        "BOS-based bullish and bearish Order Blocks",
+        "Latest unbroken Swing Highs and Swing Lows",
+        "Mitigation by close or by wick",
+        "Separate ON/OFF toggles for FVG, Order Blocks and Swings, saved per chart",
+        "Live info panel with bias, zone counts and nearest zones",
+        "Fully customizable colors, transparency, fonts, lookback and zone limits",
+        "Recalculates only on new bars, so it stays light",
+        "Objects are non-selectable and hidden from the Objects list",
+        "Analysis only: no trading logic, no signals, no orders"
+      ],
+      "requirements": [
+        "MetaTrader 5 platform",
+        "Any broker and any symbol",
+        "Works on any timeframe"
+      ],
+      "media": [],
+      "backtestStats": [],
+      "backtests": [],
+      "sections": [
+        {
+          "title": "Fair Value Gaps (FVG)",
+          "text": "Detects valid, still unmitigated bullish and bearish Fair Value Gaps.",
+          "items": [
+            "Gaps below a minimum size (based on ATR) are ignored",
+            "A zone is removed when price fully mitigates it, by close or by wick, your choice",
+            "You can limit how many recent valid FVGs are shown per direction"
+          ]
+        },
+        {
+          "title": "Order Blocks (BOS-based)",
+          "text": "Identifies bullish and bearish Order Blocks that form after a Break of Structure.",
+          "items": [
+            "Uses the last opposing candle before the break",
+            "Only unmitigated Order Blocks are kept",
+            "Newest valid blocks are prioritized and older ones are trimmed to your limit"
+          ]
+        },
+        {
+          "title": "Swing High / Swing Low levels",
+          "text": "Marks the most recent unbroken swing highs and lows, useful for key structure points and potential liquidity pools.",
+          "items": [
+            "Swing strength is fully adjustable",
+            "A level disappears once it is broken by a close"
+          ]
+        },
+        {
+          "title": "Information panel",
+          "text": "A modern panel on the middle-left side of the chart shows:",
+          "items": [
+            "Current symbol and timeframe",
+            "Live price",
+            "Overall structure bias (Bullish / Bearish BOS)",
+            "Number of active bullish and bearish FVGs",
+            "Number of active bullish and bearish Order Blocks",
+            "Latest valid Swing High and Swing Low prices",
+            "Nearest FVG and nearest Order Block to current price"
+          ]
+        },
+        {
+          "title": "Settings you can change",
+          "items": [
+            "Colors, fill transparency and fonts",
+            "Extension length of boxes and lines",
+            "Lookback period and maximum number of zones",
+            "Mitigation method: close or wick"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tf-session-levels",
+      "image": "tf-session-levels",
+      "tag": "Chart tool",
+      "platform": "MetaTrader 5",
+      "price": 30,
+      "name": "TF & Session Levels",
+      "shortDescription": "Premium panel that draws the High and Low of M1 to Monthly candles and the Asia, Tokyo, London and New York session ranges. Visual only, no trading.",
+      "overview": [
+        "TF & Session Levels draws the key levels most traders mark by hand: the High and Low of higher-timeframe candles and the High and Low of each trading session. Everything is controlled from a compact premium panel on your chart, where each item has its own ON/OFF toggle.",
+        "For 8 timeframes (M1, M5, M15, H1, H4, D1, W1 and MN1) it extends a High line and a Low line to the right of the chart, each timeframe in its own color, with a label showing the price. You can base the levels on the previous candle or on the current candle.",
+        "For 4 sessions (Asia, Tokyo, London and New York) it draws a box around each session's range for the last several days and shows the session High and Low. A live status bar in the panel header shows which sessions are open right now.",
+        "This tool is analysis only. It never places, modifies or closes any order."
+      ],
+      "sections": [
+        {
+          "title": "Timeframe levels",
+          "items": [
+            "8 timeframes: M1, M5, M15, H1, H4, D1, W1 and MN1",
+            "High and Low lines with price labels, each timeframe in its own color",
+            "Previous candle mode (the last closed candle) or Current candle mode",
+            "Only the timeframes you switch on are drawn, D1 is on by default"
+          ]
+        },
+        {
+          "title": "Session ranges",
+          "items": [
+            "4 sessions: Asia, Tokyo, London and New York",
+            "A box for each session on the last days (5 by default, adjustable)",
+            "Session High and Low are shown on the box and in the panel",
+            "Optional box fill",
+            "Sessions that cross midnight, such as Asia, are handled correctly",
+            "Session hours are set in GMT. The tool detects your broker's GMT offset automatically, or you can enter it manually"
+          ]
+        },
+        {
+          "title": "The panel",
+          "items": [
+            "Header with session status bar: open sessions light up in their own color",
+            "Badge showing how many levels are active",
+            "Collapse button to shrink the panel to the header",
+            "One row per timeframe and per session with an ON/OFF toggle",
+            "High values in green and Low values in red, a dash when a level is off or has no data",
+            "Your toggles and the collapsed state are remembered per symbol"
+          ]
+        },
+        {
+          "title": "Settings",
+          "items": [
+            "Level mode: previous candle or current candle",
+            "Number of session days to draw",
+            "Fill session boxes: on or off",
+            "Automatic GMT offset, or a manual offset in hours",
+            "Start and end hour (GMT) for Asia, Tokyo, London and New York",
+            "Panel position X and Y, and font size"
+          ]
+        },
+        {
+          "title": "Installation",
+          "items": [
+            "Copy the file into MQL5/Experts in your MetaTrader 5 data folder",
+            "Restart MetaTrader 5 or refresh the Navigator",
+            "Drag it onto a chart and turn on the timeframes and sessions you want"
+          ]
+        }
+      ],
+      "features": [
+        "High and Low levels for M1, M5, M15, H1, H4, D1, W1 and MN1",
+        "Previous or current candle mode",
+        "Asia, Tokyo, London and New York session boxes with High and Low",
+        "Live session status bar in the panel header",
+        "Automatic broker GMT offset detection, or manual offset",
+        "Fully editable session hours",
+        "Individual ON/OFF toggle for every timeframe and session",
+        "Settings and toggles remembered per symbol",
+        "Collapsible panel with adjustable position and font size",
+        "Objects are non-selectable and hidden, and are removed cleanly when the tool is removed",
+        "Analysis only: no orders are ever placed"
+      ],
+      "requirements": [
+        "MetaTrader 5 platform",
+        "Any broker and any symbol",
+        "Works on any chart timeframe",
+        "Enough chart history for the timeframes and sessions you turn on"
+      ],
+      "media": [],
+      "backtestStats": [],
+      "backtests": []
+    },
+    {
+      "id": "trade-quality-monitor",
+      "image": "trade-quality-monitor",
+      "tag": "Chart tool",
+      "platform": "MetaTrader 5",
+      "price": 30,
+      "name": "Trade Quality Monitor",
+      "shortDescription": "Analytics panel for your own trading: live spread, exposure, slippage, costs, performance stats, session breakdown and CSV export. Analysis only.",
+      "overview": [
+        "Trade Quality Monitor is a scrollable analytics panel that shows how good your trading and your execution really are. It reads your account history and your open positions and turns them into clear numbers, all on the chart.",
+        "The panel is split into five sections: live market conditions, current exposure, execution and costs, performance of closed trades, and a breakdown by trading session. You can view Today, This week, This month or All history, and look at only the current symbol or at all symbols.",
+        "This tool NEVER places, modifies or closes any order. It is made for traders who want to measure and improve their own results, whether they trade manually or use other tools."
+      ],
+      "sections": [
+        {
+          "title": "Live market",
+          "items": [
+            "Spread now, plus average, minimum and maximum spread",
+            "Ticks per minute",
+            "Server time",
+            "Spread alert: warns you when spread jumps above its average"
+          ]
+        },
+        {
+          "title": "Exposure",
+          "items": [
+            "Number of open positions",
+            "Long and short lots",
+            "Net lots on the current symbol",
+            "Floating P/L with the percentage of your balance",
+            "Margin level"
+          ]
+        },
+        {
+          "title": "Execution and costs",
+          "items": [
+            "Average and worst slippage in points, counted on market fills",
+            "Commission and fees",
+            "Swap",
+            "Costs as a percentage of gross winnings"
+          ]
+        },
+        {
+          "title": "Performance (closed trades)",
+          "items": [
+            "Number of trades, wins and losses",
+            "Win rate and net profit/loss",
+            "Profit factor",
+            "Expectancy per trade",
+            "Average win, average loss and payoff ratio",
+            "Maximum consecutive losses",
+            "Maximum drawdown, with the percentage of your balance",
+            "Average holding time"
+          ]
+        },
+        {
+          "title": "Sessions",
+          "text": "Trades are grouped by the session in which they were opened (server time): Asia, London, New York and Off-hours. For each one you see the number of trades, net result and win rate, so you can find the sessions where you really perform best."
+        },
+        {
+          "title": "Using the panel",
+          "items": [
+            "Period buttons: Today, Week, Month and All",
+            "Scope button: this symbol only or all symbols",
+            "Scroll with the mouse wheel over the panel, by dragging the scrollbar, or with the arrow buttons",
+            "Collapse button to shrink the panel to its title bar",
+            "Export CSV button saves your closed trades to the MQL5/Files folder (position ID, symbol, open and close time, holding seconds, net P/L and session)"
+          ]
+        },
+        {
+          "title": "Settings",
+          "items": [
+            "Default period and current-symbol-only option",
+            "Magic number filter (-1 for all trades)",
+            "History refresh interval",
+            "Session hours in server time",
+            "Spread alert multiplier (0 turns it off), with popup and push notification options",
+            "Panel corner (bottom left, bottom right or top right), start collapsed, visible rows, row spacing, margins, font size and column width",
+            "Full color control for background, rows, text, positive and negative values"
+          ]
+        },
+        {
+          "title": "Installation",
+          "items": [
+            "Copy the file into MQL5/Experts in your MetaTrader 5 data folder",
+            "Restart MetaTrader 5 or refresh the Navigator",
+            "Drag it onto any chart. For push notifications, set up MetaQuotes ID in the terminal options"
+          ]
+        }
+      ],
+      "features": [
+        "Live spread monitor with average, minimum and maximum",
+        "Spread spike alert by popup and push notification",
+        "Ticks per minute and server time",
+        "Exposure overview: positions, long/short lots, net lots, floating P/L, margin level",
+        "Slippage, commission, swap and cost ratio",
+        "Win rate, profit factor, expectancy, payoff ratio and drawdown",
+        "Maximum consecutive losses and average holding time",
+        "Session breakdown: Asia, London, New York and Off-hours",
+        "Today, Week, Month and All history periods",
+        "Current symbol or all symbols, with optional magic number filter",
+        "CSV export of closed trades",
+        "Scrollable, collapsible panel with full color customization",
+        "Analysis only: it never places, modifies or closes orders"
+      ],
+      "requirements": [
+        "MetaTrader 5 platform",
+        "Any broker and any symbol",
+        "Account history must be available in the terminal for the periods you analyse",
+        "Push alerts need a MetaQuotes ID set in the terminal"
+      ],
+      "media": [],
+      "backtestStats": [],
+      "backtests": []
+    }
+  ]
+}
