@@ -1,0 +1,192 @@
+{
+  "brand": {
+    "name": "GoldBot",
+    "railTitle": "GoldBot MetaTrader 5 Tools",
+    "homeTitle": "GoldBot | MetaTrader 5 Chart Tools",
+    "description": "Chart tools, panels and dashboards for MetaTrader 5."
+  },
+  "strip": [
+    "Built for MetaTrader 5",
+    "Lightweight on-chart tools",
+    "Order by email or Telegram"
+  ],
+  "nav": [
+    {
+      "label": "Tools",
+      "href": "index.html#products"
+    },
+    {
+      "label": "Contact",
+      "href": "index.html#contact"
+    }
+  ],
+  "rail": {
+    "home": [
+      {
+        "id": "home",
+        "label": "Home"
+      },
+      {
+        "id": "products",
+        "label": "Tools"
+      },
+      {
+        "id": "contact",
+        "label": "Contact"
+      }
+    ],
+    "product": [
+      {
+        "id": "overview",
+        "label": "Overview"
+      },
+      {
+        "id": "details",
+        "label": "Details"
+      },
+      {
+        "id": "backtests",
+        "label": "Results"
+      },
+      {
+        "id": "contact",
+        "label": "Contact"
+      }
+    ]
+  },
+  "hero": {
+    "title": "Chart tools that make MetaTrader 5 faster",
+    "lead": "Drawing toolbars, multi-symbol dashboards and live timeframe panels for MetaTrader 5. Get the file, attach it to a chart and start working.",
+    "primaryButton": {
+      "label": "See products",
+      "href": "#products"
+    },
+    "secondaryButton": {
+      "label": "Contact us",
+      "href": "#contact"
+    },
+    "chart": {
+      "symbol": "XAUUSD",
+      "timeframe": "H1",
+      "status": "Chart tools attached",
+      "note": "Illustrative chart only.",
+      "alt": "Illustrative candlestick chart with a trendline and a zone drawn on it"
+    }
+  },
+  "sections": {
+    "products": {
+      "title": "Tools",
+      "text": "Every tool runs on MetaTrader 5. Open a tool for full details, or add it to your cart here."
+    },
+    "contact": {
+      "title": "Contact",
+      "text": "Ask a question or send your order by email or Telegram."
+    }
+  },
+  "footer": {
+    "about": "Chart tools and dashboards for MetaTrader 5.",
+    "pagesTitle": "Pages",
+    "contactTitle": "Contact",
+    "risk": "Risk warning: trading foreign exchange, gold and other leveraged products carries a high level of risk and may not be suitable for everyone. You can lose more than your initial deposit. Test every product on a demo account first."
+  },
+  "contact": [
+    {
+      "label": "Email",
+      "value": "goldbot.ea2026@gmail.com",
+      "href": "mailto:goldbot.ea2026@gmail.com",
+      "icon": "mail",
+      "tile": "#2148F0"
+    },
+    {
+      "label": "Telegram",
+      "value": "@sebastian_ea",
+      "href": "https://t.me/sebastian_ea",
+      "icon": "telegram",
+      "tile": "#229ED9"
+    }
+  ],
+  "order": {
+    "email": "goldbot.ea2026@gmail.com",
+    "telegram": "https://t.me/sebastian_ea",
+    "subject": "New order",
+    "greeting": "Hello, I would like to order for MetaTrader 5:"
+  },
+  "payment": {
+    "title": "Pay with crypto",
+    "subtitle": "Select your preferred cryptocurrency",
+    "networkLabel": "Network",
+    "copyLabel": "Copy",
+    "warning": "⚠️ Important: please make sure you select the correct network before sending your payment. Sending funds through an unsupported or incorrect network may result in permanent loss of funds.",
+    "instructions": "After completing the payment, contact us on {telegram} and send a screenshot of the payment along with your transaction ID (TXID) so we can confirm it and send you the product file.",
+    "methods": [
+      {
+        "id": "bnb",
+        "emoji": "🟡",
+        "label": "BNB",
+        "network": "BNB Smart Chain (BEP20)",
+        "address": "0xC083cc2f4DDc804193C5716309BD7Eb8079C1958"
+      },
+      {
+        "id": "tron",
+        "emoji": "🔴",
+        "label": "TRON",
+        "network": "TRON (TRC20)",
+        "address": "TNeojsS2HwwJjXbRshQFnQjSy4XNF5qUN2"
+      },
+      {
+        "id": "ada",
+        "emoji": "🔵",
+        "label": "Cardano",
+        "network": "Cardano",
+        "address": "addr1qy00dvahhg2phca0mym53capu9xaf3lkx9dfk65njamaw8y0hm4ma8q47zqaetmg2zwvquua03dzp03lk2932mrzsmvq0vd2xg"
+      },
+      {
+        "id": "doge",
+        "emoji": "🐕",
+        "label": "Dogecoin",
+        "network": "Dogecoin",
+        "address": "DDfotkTcjze7wLQrrFWaDzDCDB6wBQxJBN"
+      },
+      {
+        "id": "xrp",
+        "emoji": "💧",
+        "label": "XRP",
+        "network": "XRP Ledger",
+        "address": "rBW7jCJzFRkaVDZ4kwgDFGJBHuxA8eVUXH"
+      }
+    ]
+  },
+  "labels": {
+    "cart": "Cart",
+    "cartTitle": "Your cart",
+    "cartEmpty": "Your cart is empty. Add a product to get started.",
+    "addToCart": "Add to cart",
+    "added": "Added",
+    "remove": "Remove",
+    "total": "Total",
+    "orderEmail": "Order by email",
+    "orderTelegram": "Order on Telegram",
+    "orderNote": "For Telegram, your order text is copied automatically. Paste it into the chat.",
+    "viewDetails": "View details",
+    "backToProducts": "Back to tools",
+    "seeOthers": "See other tools",
+    "overview": "Overview",
+    "features": "Features",
+    "requirements": "Requirements",
+    "backtests": "Results and screenshots",
+    "backtestsIntro": "Screenshots and results. Past results do not guarantee future performance.",
+    "video": "Video",
+    "backtest": "Backtest",
+    "imagePlaceholder": "Add your image here",
+    "notFoundTitle": "Product not found",
+    "notFoundText": "This product does not exist or the link is missing an id.",
+    "toastAdded": "{name} added to cart",
+    "toastRemoved": "{name} removed from cart",
+    "toastCopied": "Address copied",
+    "toastCopyFail": "Could not copy. Please select and copy the address manually.",
+    "toastOrderCopied": "Order copied. Paste it into the Telegram chat.",
+    "toastOrderCopyFail": "Telegram opened. Please type your order in the chat.",
+    "loadError": "Could not load site.json / products.json. Open this site with Live Server instead of double-clicking the file.",
+    "online": "Online"
+  }
+}
